@@ -3,7 +3,7 @@ import { Button, Container, Row } from 'react-bootstrap';
 import { AiOutlineDownload } from 'react-icons/ai';
 import Footer from '../Footer';
 import { Document, Page, pdfjs } from 'react-pdf';
-import pdf from "../../assets/Resume02_Feb.pdf";
+import pdf from "../../assets/Resume03_Feb_.pdf";
 import 'react-pdf/dist/Page/TextLayer.css';
 import 'react-pdf/dist/Page/AnnotationLayer.css';
 pdfjs.GlobalWorkerOptions.workerSrc = `//unpkg.com/pdfjs-dist@${pdfjs.version}/build/pdf.worker.min.mjs`;
