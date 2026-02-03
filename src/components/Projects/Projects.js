@@ -39,8 +39,8 @@ function Projects() {
                                 isBlog={false}
                                 title="Personal Blog"
                                 description="I've created a blogging website featuring trending topics from a variety of domains, including Bollywood, Hollywood, the latest advancements in technology, and mouthwatering food recipes. This project was developed using React, incorporating the Context API, and styled using CSS with styled-components.."
-                                ghLink="#"
-                                demoLink="#"
+                                ghLink="https://github.com/krishankanhay/reactjs_blog_web_app_01"
+                                demoLink="https://reactjs-blog-web-app-01.netlify.app/"
                             />
                         </Col>
 
@@ -61,8 +61,8 @@ function Projects() {
                                 isBlog={false}
                                 title="Digital clock and Alarm"
                                 description="This project is a dynamic digital clock in which the user can see the real time and also set the alarm. And according to the set time the images will change. This project was developed using Html, CSS and JavaScript"
-                                ghLink="#"
-                                demoLink="#"
+                                ghLink="https://github.com/krishankanhay/js_reminder_clock_app_01"
+                                demoLink="https://krishankanhay.github.io/js_reminder_clock_app_01/"
                             />
                         </Col>
 
