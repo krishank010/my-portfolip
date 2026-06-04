@@ -358,6 +358,13 @@ button:focus {
   }
 }
 
+@media (max-width: 767px) {
+  .heading-name {
+    font-size: 1.5em !important;
+    padding-left: 45px !important;
+  }
+}
+
 .home-about-section {
   background-image: var(--section-background-color) !important;
   /* background-color: #0c0513; */
@@ -655,6 +662,3 @@ button:focus {
   padding-bottom: 50px;
   justify-content: center;
 }
-
-
-

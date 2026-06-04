@@ -9,7 +9,7 @@ function Type() {
                     "Full-Stack Developer",
                     "AI, ML & DL Engineer",
                     "Cyber Security Engineer",
-                    "Data Science Engineer",
+                    "Data Science & Analytics Engineer",
                     "IoT & Robotics Engineer"
                 ],
                 autoStart: true,

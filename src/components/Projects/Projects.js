@@ -1,13 +1,22 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import ProjectCards from './ProjectCards';
+import Footer from '../Footer';
 import ecom from "../../assets/Projects/ecom.png"
 import reactblog from "../../assets/Projects/reactblog.png";
 import foodapp from "../../assets/Projects/foodapp.png"
 import dgclock from "../../assets/Projects/dgclock.png";
 import redux from "../../assets/Projects/redux.png";
 import weather from "../../assets/Projects/weather.png";
-import Footer from '../Footer';
+import Overview from '../../assets/Projects/1-A1-Overview-Pollution Data.jpg';
+import AirBnB from '../../assets/Projects/6-B1-Overview-AirBnB Data.jpg';
+import Supply from '../../assets/Projects/8-C5-Supply Chain Management.jpg';
+import HR from '../../assets/Projects/11-D-HR Employee Data Analysis.jpg';
+import Call from '../../assets/Projects/12-E-Call Centre Call Review Analysis.jpg';
+import Airline from '../../assets/Projects/43-Airline Analysis-(a).jpg';
+import Life from '../../assets/Projects/44-Life Expectancy-(a).jpg';
+import Covid from '../../assets/Projects/42-Covid-19 Analysis.jpg';
+
 
 function Projects() {
     return (
@@ -88,6 +97,102 @@ function Projects() {
                                 demoLink="#"
                             />
                         </Col>
+
+
+
+                        {/* ------------------------ */}
+
+                        <Col md={4} className="project-card">
+                            <ProjectCards
+                                imgPath={Overview}
+                                isBlog={false}
+                                title="US Pollution Analysis"
+                                description="loading..."
+                                ghLink="#"
+                                demoLink="#"
+                            />
+                        </Col>
+
+
+                        <Col md={4} className="project-card">
+                            <ProjectCards
+                                imgPath={AirBnB}
+                                isBlog={false}
+                                title="AirBnB Data Analysis"
+                                description="loading..."
+                                ghLink="#"
+                                demoLink="#"
+                            />
+                        </Col>
+
+                        <Col md={4} className="project-card">
+                            <ProjectCards
+                                imgPath={Supply}
+                                isBlog={false}
+                                title="Supply Chain Management"
+                                description="loading..."
+                                ghLink="#"
+                                demoLink="#"
+                            />
+                        </Col>
+
+                        <Col md={4} className="project-card">
+                            <ProjectCards
+                                imgPath={HR}
+                                isBlog={false}
+                                title="HR Employee Data Analysis"
+                                description="loading..."
+                                ghLink="#"
+                                demoLink="#"
+                            />
+                        </Col>
+
+
+                        <Col md={4} className="project-card">
+                            <ProjectCards
+                                imgPath={Call}
+                                isBlog={false}
+                                title="Call Centre Call Review Analysis"
+                                description="loading..."
+                                ghLink="#"
+                                demoLink="#"
+                            />
+                        </Col>
+
+                        <Col md={4} className="project-card">
+                            <ProjectCards
+                                imgPath={Airline}
+                                isBlog={false}
+                                title="Airline Analysis"
+                                description="loading..."
+                                ghLink="#"
+                                demoLink="#"
+                            />
+                        </Col>
+
+                        <Col md={4} className="project-card">
+                            <ProjectCards
+                                imgPath={Life}
+                                isBlog={false}
+                                title="Life Expectancy"
+                                description="loading..."
+                                ghLink="#"
+                                demoLink="#"
+                            />
+                        </Col>
+
+                        <Col md={4} className="project-card">
+                            <ProjectCards
+                                imgPath={Covid}
+                                isBlog={false}
+                                title="Covid-19 Analysis"
+                                description="loading..."
+                                ghLink="#"
+                                demoLink="#"
+                            />
+                        </Col>
+
+
                     </Row>
                 </Container>
             </Container>
@@ -97,3 +202,7 @@ function Projects() {
 }
 
 export default Projects;
+
+
+
+
