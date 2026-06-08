@@ -8,6 +8,8 @@ import foodapp from "../../assets/Projects/foodapp.png"
 import dgclock from "../../assets/Projects/dgclock.png";
 import redux from "../../assets/Projects/redux.png";
 import weather from "../../assets/Projects/weather.png";
+
+import SUMMARY from "../../assets/Projects/ORDER SUMMARY.jpg";
 import Overview from '../../assets/Projects/1-A1-Overview-Pollution Data.jpg';
 import AirBnB from '../../assets/Projects/6-B1-Overview-AirBnB Data.jpg';
 import Supply from '../../assets/Projects/8-C5-Supply Chain Management.jpg';
@@ -118,6 +120,18 @@ function Projects() {
 
 
                         {/* ------------------------ */}
+
+                        <Col md={4} className="project-card">
+                            <ProjectCards
+                                imgPath={SUMMARY}
+                                isBlog={false}
+                                title="ORDER SUMMARY"
+                                description="Summary..."
+                                ghLink="#"
+                                demoLink="https://datastudio.google.com/reporting/a244b161-bda6-4062-a552-ca64e0685c2f/page/n3Z0F"
+                            />
+                        </Col>
+                        
 
                         <Col md={4} className="project-card">
                             <ProjectCards
