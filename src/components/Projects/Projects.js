@@ -2,6 +2,11 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 import ProjectCards from './ProjectCards';
 import Footer from '../Footer';
+import ecomsh from "../../assets/Projects/e-com.jpg";
+import youtube from "../../assets/Projects/youtube.jpg";
+import hotstar from "../../assets/Projects/hotstar.jpg";
+
+
 import ecom from "../../assets/Projects/ecom.png"
 import reactblog from "../../assets/Projects/reactblog.png";
 import foodapp from "../../assets/Projects/foodapp.png"
@@ -50,6 +55,39 @@ function Projects() {
                     </p>
 
                     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+                        <Col md={4} className="project-card">
+                            <ProjectCards
+                                imgPath={ecomsh}
+                                isBlog={false}
+                                title="E-commerce"
+                                description="An E-commerce website, specially designed for people who love to shop sitting at home with just one click. In Which User and Admin both can access the website. This project is built by using ReactJS, CSS, NodeJS and MongoDB as a database."
+                                ghLink="https://drive.google.com/drive/folders/1PVv-vBOLoZkgHsheqSoqBkx-dNpPInHE?usp=sharing"
+                                demoLink="https://s-k-vastralaya-krishan.netlify.app"
+                            />
+                        </Col>
+
+                        <Col md={4} className="project-card">
+                            <ProjectCards
+                                imgPath={youtube}
+                                isBlog={false}
+                                title="You Tube Clone"
+                                description="An You Tube Clone, specially designed for people who love to ..."
+                                ghLink="https://drive.google.com/drive/folders/1W_AnoJ4Y2YXlsVNEMIpj72PwtJSuz02T?usp=sharing"
+                                demoLink="https://youtube-clone-krishan.netlify.app"
+                            />
+                        </Col>
+
+                        <Col md={4} className="project-card">
+                            <ProjectCards
+                                imgPath={hotstar}
+                                isBlog={false}
+                                title="Hotstar Clone"
+                                description="An Hotstar Clone, specially designed for people who love to ..."
+                                ghLink="https://drive.google.com/drive/folders/16YHTtrbW4mdxcFjFgdoNk521dKaMzOz7?usp=sharing"
+                                demoLink="#"
+                            />
+                        </Col>
+
                         <Col md={4} className="project-card">
                             <ProjectCards
                                 imgPath={ecom}
@@ -131,7 +169,7 @@ function Projects() {
                                 demoLink="https://datastudio.google.com/reporting/a244b161-bda6-4062-a552-ca64e0685c2f/page/n3Z0F"
                             />
                         </Col>
-                        
+
 
                         <Col md={4} className="project-card">
                             <ProjectCards
